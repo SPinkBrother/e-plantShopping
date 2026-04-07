@@ -34,7 +34,7 @@ parseFloat(item.cost.substring('$', '')), 0 );
   };
 
   const handleRemove = (item) => {
-    dispatch(removeItem(item.name))
+    dispatch(removeItem(item.name));
   };
 
   // Calculate total cost based on quantity for an item
